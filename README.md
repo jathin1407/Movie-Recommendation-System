@@ -39,6 +39,5 @@ The project consists of two main components:
 
 ## 📂 Dataset  
 
-The dataset used in this project can be found [here](## 📂 Dataset  
 
-The dataset used in this project can be found [here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+The dataset used in this project can be found [here] (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
