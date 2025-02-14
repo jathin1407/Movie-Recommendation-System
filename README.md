@@ -8,30 +8,30 @@ The project consists of two main components:
 
 ## Backend (Recommendation Engine)
 
-Data preprocessing: Cleaning and transforming the dataset
-Tag creation: Combining important features to form a meaningful representation of each movie
-Text vectorization using CountVectorizer
-Cosine Similarity computation to determine how closely related two movies are
-Generating the top 5 similar movie recommendations based on the input movie
+- Data preprocessing: Cleaning and transforming the dataset
+- Tag creation: Combining important features to form a meaningful representation of each movie
+- Text vectorization using CountVectorizer
+- Cosine Similarity computation to determine how closely related two movies are
+- Generating the top 5 similar movie recommendations based on the input movie
 
 ## Frontend (User Interface using Streamlit)
 
-An interactive UI built with Streamlit
-User-friendly search and recommendation display
-Seamless integration with the backend to provide real-time recommendations
+- An interactive UI built with Streamlit
+- User-friendly search and recommendation display
+- Seamless integration with the backend to provide real-time recommendations
 
 # 🛠️ Technologies Used
-Python: Core programming language
-Pandas: Data preprocessing and manipulation
-Numpy: Efficient numerical operations
-Scikit-learn: Machine learning tools for vectorization and similarity calculations
-CountVectorizer: NLP technique for feature extraction
-Cosine Similarity: Computes similarity scores between movie vectors
-Streamlit: Lightweight framework for deploying an interactive UI
+- Python: Core programming language
+- Pandas: Data preprocessing and manipulation
+- Numpy: Efficient numerical operations
+- Scikit-learn: Machine learning tools for vectorization and similarity calculations
+- CountVectorizer: NLP technique for feature extraction
+- Cosine Similarity: Computes similarity scores between movie vectors
+- Streamlit: Lightweight framework for deploying an interactive UI
 
 # 🎯 How It Works
-The dataset containing movie information is preprocessed by cleaning missing values and merging relevant features into a single tag.
-The system converts these tags into numerical vectors using CountVectorizer.
-The Cosine Similarity score is calculated between movies to find the most similar ones.
-The user inputs a movie title through the Streamlit interface.
-The system retrieves and displays the top 5 most similar movies based on the similarity scores.
+- The dataset containing movie information is preprocessed by cleaning missing values and merging relevant features into a single tag.
+- The system converts these tags into numerical vectors using CountVectorizer.
+- The Cosine Similarity score is calculated between movies to find the most similar ones.
+- The user inputs a movie title through the Streamlit interface.
+- The system retrieves and displays the top 5 most similar movies based on the similarity scores.
