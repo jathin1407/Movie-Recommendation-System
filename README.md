@@ -6,14 +6,15 @@ The Movie Recommender System follows a content-based filtering approach, meaning
 
 The project consists of two main components:
 
-Backend (Recommendation Engine)
+## Backend (Recommendation Engine)
 
 Data preprocessing: Cleaning and transforming the dataset
 Tag creation: Combining important features to form a meaningful representation of each movie
 Text vectorization using CountVectorizer
 Cosine Similarity computation to determine how closely related two movies are
 Generating the top 5 similar movie recommendations based on the input movie
-Frontend (User Interface using Streamlit)
+
+## Frontend (User Interface using Streamlit)
 
 An interactive UI built with Streamlit
 User-friendly search and recommendation display
