@@ -35,3 +35,10 @@ The project consists of two main components:
 - The Cosine Similarity score is calculated between movies to find the most similar ones.
 - The user inputs a movie title through the Streamlit interface.
 - The system retrieves and displays the top 5 most similar movies based on the similarity scores.
+
+
+## 📂 Dataset  
+
+The dataset used in this project can be found [here](## 📂 Dataset  
+
+The dataset used in this project can be found [here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
